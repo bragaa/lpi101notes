@@ -1,7 +1,7 @@
 - processes are called **jobs** in shell terms.
 
 ## Jobs
-```console
+```bash
 
 $ firefox &  # creates background task that is not using the terminal
 [1] 10167
