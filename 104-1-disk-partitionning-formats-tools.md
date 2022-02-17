@@ -7,7 +7,9 @@
 	- Partition table is typically written at the beginning of the disk
 	- Partition table must contain how partitions are there in the disk, where do they start, they finish, the partition type, whther it is bootable or not, etc.
 
-- The GPT format: <a title="The original uploader was Kbolino at English Wikipedia., CC BY-SA 2.5 &lt;https://creativecommons.org/licenses/by-sa/2.5&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:GUID_Partition_Table_Scheme.svg"><img width="256" alt="GUID Partition Table Scheme" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/GUID_Partition_Table_Scheme.svg/256px-GUID_Partition_Table_Scheme.svg.png"></a>
+## The GPT format:
+- Globally Unique ID Partition Table
+- <a title="The original uploader was Kbolino at English Wikipedia., CC BY-SA 2.5 &lt;https://creativecommons.org/licenses/by-sa/2.5&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:GUID_Partition_Table_Scheme.svg"><img width="256" alt="GUID Partition Table Scheme" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/GUID_Partition_Table_Scheme.svg/256px-GUID_Partition_Table_Scheme.svg.png"></a>
 
 ```console
 root@debian:/home/gcr# parted -l  /dev/sda
