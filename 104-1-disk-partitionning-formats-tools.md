@@ -23,4 +23,5 @@ Number  Start   End     Size    Type      File system     Flags
  5      20.4GB  21.5GB  1072MB  logical   linux-swap(v1)
 ```
 
-- TBD: how to create partitions
+# Examples with ```parted``` and ```fdisk```
+- create, list, remove partitions
