@@ -1,0 +1,5 @@
+# streams
+
+# redirections
+
+# tee, xargs
